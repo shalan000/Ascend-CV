@@ -13,7 +13,7 @@ import requests  # For Gemini API
 import json
 
 # --- Gemini API Helper ---
-GEMINI_API_KEY = "AIzaSyAtfbdqPOiZAzV9zQoCEWmhRXpSj3lpxgc"  # <-- Replace with your Gemini API key
+GEMINI_API_KEY = "gemini_api_key"  # <-- Replace with your Gemini API key
 GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" + GEMINI_API_KEY
 
 def call_gemini(prompt):
